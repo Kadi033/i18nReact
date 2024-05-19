@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.kadi::placeholder {
+  color: #9ca3af;
+}
+
+.kd:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+}
+.container > div > img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: fill;
+  cursor: pointer;
+}
